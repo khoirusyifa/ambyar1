@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>. : Biodata : .</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<article style="border: 1px">
+		<form id="contact" method="post" action="" width=>
+			<h1><center>Form Biodata</center></h1>
+			
+			<fieldset>
+			<p>
+				<label for="nama">Nama Lengkap : </label>
+				<input type="text" name="nama" placeholder="" autofocus="autofocus">
+			</p>
+
+			<p>
+				<label for="alamat">Alamat Lengkap : </label>
+				<textarea id="alamat" name="alamat" rows= "4" cols="22" title="Tolong diisi lengkap seperti nama jalan dan nomor rumah"></textarea> 
+			</p>
+
+			<p>
+				<label for="tempat">Tempat Lahir :</label>
+				<input type="text" name="tempat">
+			</p>
+				
+			<p>
+				<label for="tanggal">Tanggal Lahir : </label>
+				<section class="container">
+					<input type="date" name="tanggal">
+				</section>
+			</p>
+				
+			<p>
+				<label>Jenis Kelamin : </label>
+				<section class="container">
+					<input type="radio" name="demo-radio" id="radio-1">
+					<label for="radio-1">Pria</label>
+					<br>
+					<input type="radio" name="demo-radio" id="radio-2">
+					<label for="radio-2">Wanita</label>
+				</section>
+			</p>
+
+			<p>
+				<label for="agama">Agama : </label>
+				<select name="agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Budha">Budha</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Konghucu">Konghucu</option>
+				</select>
+			<p>
+				<label for="goldarah">Golongan Darah : </label>
+				<select name="goldarah">
+				<option value="o">O</option>
+				<option value="ab">AB</option>
+				<option value="a">A</option>
+				<option value="b">B</option>
+				</select>
+			</p>
+
+			</p>
+
+			<p>
+				<label for="email">Email : </label>
+				<input type="email" id="email" name="email" placeholder="contoh@gmail.com">
+			</p>
+
+			<p>
+				<label for="phone">No Telepon : </label>
+				<input type="tel" id="phone" name="phone" placeholder="+62-7636007926" pattern="[+62]{3}-[0-9]{10}">
+			</p>
+				
+			<p>
+				<center>
+				<input type="Submit" value="Submit">
+				<input type="Reset" value="Reset">
+				</center>
+			</p>
+
+			</fieldset>
+		</form>
+	</article>
+	<p><center>Copyright@AmbyarTeam</center></p>
+</body>
+</html>
